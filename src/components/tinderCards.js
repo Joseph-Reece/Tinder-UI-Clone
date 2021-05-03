@@ -6,7 +6,12 @@ import axios from '../axios'
 
 
 const TinderCards = () => {
-    const [people, setPeople] = useState([])
+    const [people, setPeople] = useState([
+        {
+            profileName: "DEV JOE",
+            imgUrl: "https://res.cloudinary.com/devreece/image/upload/v1620028950/lvdgjhzoy754vd4j98ky.jpg"
+        }
+    ])
     
     useEffect(() => {
         axios.get('http://localhost:5000/profiles').then((allProfiles) => {
