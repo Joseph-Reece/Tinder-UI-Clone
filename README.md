@@ -18,7 +18,7 @@ You will also see any lint errors in the console.
 
 Runs the backend server.\
 First cd into the backend folder then run the command.\
-Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
+Open [http://localhost:5000/profiles](http://localhost:5000/profiles) to view it in the browser.
 
 ### `npm test`
 
