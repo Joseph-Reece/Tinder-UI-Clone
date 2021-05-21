@@ -4,10 +4,8 @@ import cors from 'cors'
 import appRoutes from './routes/tinder_routes.js'
 
 // Do this for require method to work for .env files
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
-const dotenv = require('dotenv');
-dotenv.config();
+import dotEnv from 'dotenv'
+dotEnv.config();
 
 const app = express()
 
